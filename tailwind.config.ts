@@ -8,11 +8,14 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        americana: ["americana", "sans-serif"],
+      },
+      backgroundImage: {
+        hero: "url('/images/hero.png')",
       },
     },
   },
   plugins: [],
 } satisfies Config;
+
